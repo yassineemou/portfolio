@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 
 .navbar {
   position: fixed;
@@ -74,4 +76,11 @@
   .nav-links {
     display: none;
   }
+}
+.portfolio-image {
+  margin-left: 30px;
+  width: 95%;  /* Ensure the image takes the full width of the screen */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100vh; /* Prevent the image from exceeding the viewport height */
+  object-fit: cover; /* Ensures the image covers the area nicely */
 }
